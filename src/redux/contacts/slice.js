@@ -1,5 +1,5 @@
-import { nanoid, createSlice} from '@reduxjs/toolkit';
-import { addContact, fetchContacts, deleteContact } from './contactsOps';
+import { createSlice} from '@reduxjs/toolkit';
+import { addContact, fetchContacts, deleteContact } from './operations';
 
 const contactsInitialState = {
     items: [],
