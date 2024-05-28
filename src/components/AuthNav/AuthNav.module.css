@@ -5,7 +5,7 @@
 
 .link {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -18,9 +18,3 @@
     color: var(--VIOLET);
     transform: scale(1.2);
 }
-
-@media screen and (min-width: 768px) {
-.nav {
-    gap:60px;
-}
-     }
