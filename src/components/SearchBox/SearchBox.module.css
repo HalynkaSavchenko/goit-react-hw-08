@@ -3,7 +3,6 @@
     flex-direction: column;
     margin-top: 40px;
     margin-bottom: 40px;
-    align-items: start;
 }
 .label {
     font-style: italic;
@@ -12,10 +11,17 @@
     color: var(--icon-color);
 }
 
-.search {
+.field {
     background-color: inherit;
-    width: 300px;
-    height: 30px;
-    border-radius: 8px;
-    border: 0.8px solid var(--input-border-color);
-}
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: var(--grey-text-color);
+    border: none;
+    border-bottom: 1px solid var(--clr-charl-green);
+    outline: none;
+  }

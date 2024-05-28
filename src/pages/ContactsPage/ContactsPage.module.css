@@ -1,0 +1,9 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title {
+    margin-top: 20px;
+}

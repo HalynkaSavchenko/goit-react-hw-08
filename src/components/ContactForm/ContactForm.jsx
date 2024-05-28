@@ -39,7 +39,7 @@ export default function ContactForm() {
                       <ErrorMessage className={css.error} name='number' component='span'/>
                     </div>
                 </div>
-                <button className={css.btn} type='submit'>Add contact</button>
+                <button className={css.button} type='submit'>Add contact</button>
             </Form>
         </Formik>
     )

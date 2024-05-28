@@ -2,12 +2,11 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.card {
-    border-radius: 8px;
-    background-color: var(--button-hover-color);
-    width: calc((100% - 3 * 24px) / 4);
-    box-shadow: 2px 2px 2px 2px var(--button-border-color);
+.item {
+    display: inline;
+    box-shadow: 4px 4px 4px 4px var(---clr-charl-green);
 }
 

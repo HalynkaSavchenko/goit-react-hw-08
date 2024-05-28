@@ -13,7 +13,7 @@ export default function SearchBox() {
         <div className={css.searchBox}>
             <label htmlFor={filterId} className={css.label}>Find contacts by name</label>
             <input 
-            className={css.search}
+            className={css.field}
             type="text"
             value={filters}
             onChange={(e) => dispatch(setFilter(e.target.value))}
